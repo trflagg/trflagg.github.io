@@ -17,3 +17,20 @@
   margin-left: 45px;
   float: right;
 }
+
+.row {
+  margin-top: 25px;
+}
+
+.well > h2 {
+  margin-top: 0px;
+}
+
+.skills--heading {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.skills--definition {
+  margin-left: 30px;
+}

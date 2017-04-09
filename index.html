@@ -43,11 +43,98 @@
         <img class="img-circle header--image" src="Me.jpg" />
       </div>
     </div>
-    <div class="container">
-      <hr>
 
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-8">
+          <h2>About</h2>
+          <p>I've been programming for a long time. I made my own video games as a kid, majored in CS and spent some time in grad school, and have been working professionally for the last 10 years.</p>
+          <p>About 5 years ago I decided to focus on front-end web development. I'm a visual person. I love seeing the immediate results of my work and working to make things beautiful and easier to use. I also like the 'newness' of the field and how quickly things change with the latest innovations.</p>
+          <p>In my time, I've seen and worked with plenty of front-end web technologies. HTML, CSS, JavaScript, of course, but then also frameworks like React, Backbone, JQuery, Bootstrap, SASS, and plenty others. On the backend, I've worked with NodeJS, Ruby on Rails, and Python with Flask. I'm comfortable working full-stack, but I prefer front-end work over anything else.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="well well-lg well-resume">
+            <h2>My Resume</h2>
+            <i class="fa fa-file-pdf-o fa-4x pull-left" aria-hidden="true"></i>
+            <p><a href="http://hi-scor.es/resume.html">View resume</a></p>
+            <p><a href="Taylor Flagg Resume.pdf">Download resume</a></p>
+          </div>
+        </div>
+      </div> <!-- /row -->
+
+      <hr/>
+
+      <div class="row">
+        <div class="col-md-3 well well-lg">
+          <h2>Looking For</h2>
+          <ul>
+            <li>Boston-based Contract</li>
+            <li>Remote Contract</li>
+            <li>Remote Full-time</li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-1">
+          <h2>Skills</h2>
+
+          <p class="skills--heading">Languages</p>
+          <p class="skills--definition">JavaScript (including ES6)/Coffeescript, HTML5, CSS3, Python, Ruby, Caché ObjectScript</p>
+
+          <p class="skills--heading">Front-end Technologies</p>
+          <p class="skills--definition">React, JQuery, SASS, Backbone.js/Underscore, Webpack/Browserify/NPM/Grunt/RequireJS, Highcharts, CSS animation, HTML canvas, HTML5 audio and video</p >
+
+          <p class="skills--heading">Back-end Frameworks</p>
+          <p class="skills--definition">Node.js & Koa/Express, Rails, Flask</p>
+
+          <p class="skills--heading">Technologies</p>
+          <p class="skills--definition">Git, Docker, AWS/Google Cloud, NPM, Unit Testing with Mocha/Sinon/Chai/PhantomJS/etc., iOS and Android Web Development & Testing, Agile Development</p>
+
+          <p class="skills--heading">Databases</p>
+          <p class="skills--definition">MySQL & PostgreSQL, MongoDB, InterSystems Caché (object-based dbms)</p>
+        </div>
+      </div> <!-- /row -->
+
+      <hr />
+
+      <div class="row">
+        <h2>Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="MakeItSo.png" class="img-responsive" />
+        </div>
+        <div class="col-md-6">
+          <h2>Make It So</h2>
+          <div>
+            <a href="http://makeitso.hi-scor.es">Play alpha version</a> -
+            <a href="https://github.com/trflagg/MakeItSo">Github</a>
+          </div>
+          <p><i>Make It So</i> is a web-app disguised as a text adventure. The back-end is written in NodeJS with the Koa framework and interacts with MongoDB. The front-end uses Backbone and SASS and it's served using Docker.</p>
+          <p>Inspired by <i>Star Trek: The Next Generation</i>, you navigate the galaxy solving mysteries and resolving diplomatic crises. Use your crew and ship instruments to gather data then your wits and captain's instincts to make the right calls and bring peace to the galaxy.</p>
+          <p>Currently it's in early-alpha release. You're welcome to create your profile and ship and experience the first encounter, but I can't promise much inspired storytelling or gameplay yet.</p>
+        </div>
+      </div> <!-- /row -->
+
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>hi-scor.es</h2>
+          <div>
+            <a href="http://hi-scor.es/">Visit</a> -
+            <a href="https://github.com/trflagg/hi-scor.es">Github</a>
+          </div>
+          <p><i>hi-scor.es</i> is the dumping ground for the games I've made (and my future game development company).</p>
+          <p>I wrote the site a while ago and spent some time building a <a href="https://github.com/trflagg/hi-scor.es/blob/master/client/js/FnE.js">custom animation/placement engine</a> that made sure all of the elements on the page were responsive and beautiful.</p>
+          <p>Now I'm busy <a href="https://github.com/trflagg/hi-scor.es/tree/react_makeover">rewriting it in React</a>.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="hi-scor.es.png" class="img-responsive" />
+        </div>
+      </div> <!-- /row -->
+
+      <hr>
       <footer>
-        <p>&copy; Taylor Flagg</p>
+        <p>&copy;<script>document.write(new Date().getFullYear())</script> Taylor Flagg</p>
       </footer>
     </div> <!-- /container -->
 
