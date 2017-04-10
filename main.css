@@ -2,6 +2,10 @@ h1, h2 {
   font-family: 'Patua One', serif;
 }
 
+.jumbotron {
+  background-color: #83babb;
+}
+
 .header--text {
   float: left;
 }
