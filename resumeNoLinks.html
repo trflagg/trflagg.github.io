@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taylor Flagg</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/solid.css" integrity="sha384-+0VIRx+yz1WBcCTXBkVQYIBVNEFH1eP6Zknm16roZCyeNg2maWEpk/l/KsyFKs7G" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
+
+    <style type="text/css">
+      body {
+        line-height: normal;
+      }
+
+      #contactInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .right {
+        text-align: right;
+      }
+
+      h1 {
+        margin-bottom: 1em;
+      }
+
+      h2 {
+        margin-top: .83em;
+        display: block;
+        border-bottom: 1px solid black;
+        font-size: 25px;
+      }
+
+      h3 {
+        margin-top: 25px;
+        margin-bottom: -0.1em;
+        font-size: 15px;
+      }
+
+      h4 {
+        margin: 0px;
+        font-size: 12px;
+      }
+
+      div {
+        page-break-before: always;
+        margin-top: -0.5em;
+      }
+
+      p {
+        margin-left: 1.8em;
+      }
+
+      .work-history p, #outside p {
+        margin: 0 1.8em;
+      }
+
+      a {
+        color: black;
+        text-decoration: underline;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      .workDates {
+        margin-bottom: 10px;
+        font-style: italic;
+      }
+
+      #work div {
+        margin-top: 15px;
+      }
+
+      #work div:first-child {
+        margin-top: 0px;
+      }
+
+      #outside {
+        display: flex;
+        flex-direction: row;
+        justify-contents: space-between;
+      }
+
+      @media print {
+        @page { margin: .25in; margin-top: 0.3in;}
+        div {
+          page-break-before: auto;
+          page-break-after: auto;
+        }
+        .topLink {
+          display: none;
+        }
+
+        p {
+          font-size: 12px;
+        }
+
+        li {
+          font-size: 12px;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        h2 {
+          margin-top: 1em;
+          display: block;
+          font-size: 18px;
+        }
+
+        h3 {
+          margin-bottom: 0.5em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content" class="container">
+      <div id="resumeDiv">
+        <h1>Taylor Flagg</h1>
+        <div style="font-size: 1.0em;" id="contactInfo">
+          <div class="left">
+            <span>
+              <i class="fas fa-home"></i>
+              <a >http://taylorflagg.net</a></br>
+            </span>
+            <span>
+              <i class="fas fa-envelope"></i>
+              <span id="emailLink">trflagg@gmail.com</span><br/>
+            </span>
+          </div>
+          <div class="right">
+            <span>
+              <i class="fab fa-github"></i>
+              <a>https://github.com/trflagg</a></br>
+            </span> 
+            <span>
+              <i class="fab fa-linkedin"></i>
+              <a>https://www.linkedin.com/in/trflagg</a></br>
+            </span>
+          </div>
+        </div>
+
+        <h2>Skills</h2>
+        <div id="skills" class="">
+          <ul>
+            <li>JavaScript and its latest features (async/await, spread operator, etc.), HTML5, CSS3, TypeScript</li>
+            <li>React, React Native, Redux, SASS, Backbone.js, Underscore, JQuery, Jest, Webpack</li> 
+            <li>NodeJS, Express, GraphQL, Mongoose, Ruby/Rails, Python/Flask</li>
+            <li>Git, Docker, AWS, Google Cloud, NPM, Agile Development</li>
+            <li>MongoDB, MySQL &amp; PostgreSQL, InterSystems Cach&eacute; (object-based dbms)</li>
+          </ul>
+        </div>
+
+        <h2>Work Experience</h2>
+        <div id="work">
+          <div class="work-history">
+            <h3>Zagster - Senior Mobile Engineer</h3>
+            <p class="workDates">May 2017 - August 2018</p>
+            <p>Worked on a small team to develop and maintain a bluetooth-enabled iOS and Android rider app for bikeshares. App handled user registration/billing, displaying location of bikes and stations, locking/unlocking via bluetooth, tracking position during a ride.</p>
+            <p>
+            <b>Technologies:</b> React Native, Redux, Webpack, Jest, Google Maps, Bluetooth, XCode, Android Stuido, NodeJS, MongoDB
+            </p>
+          </div>
+          <div class="work-history">
+            <h3>Tapjoy - Senior Front-end Engineer</h3>
+            <p class="workDates">December 2014 - October 2016</p>
+            <p>Front-end developer on multiple teams supporting multiple projects for mobile ad delivery. Delivered a high-end visualization dashboard for advertisers. Supported online ad creation platform. Oversaw automated build/package delivery system. Implemented HTML5 mobile video delivery system.</p>
+            <p>
+            <b>Technologies:</b> Coffeescript, ES6, React, Redux, Backbone.js, Highcharts, JQuery, SASS, Mocha, Grunt, AWS, Ruby/Rails, MySQL
+            </p>
+          </div>
+          <div class="work-history">
+            <h3>Scout Exchange - Front-end Developer</h3>
+            <p class="workDates">April 2013 - August 2014</p>
+            <p>Responsible for all HTML/CSS/JS for multiple interfaces integrated into employer/recruiter software. 
+            <p>Created automated build system to generate multiple client-side packages.</p>
+            <p>
+            <b>Technologies:</b> Backbone.js, SASS, JQuery, Grunt, RequireJS, MongoDB, Python/Flask
+            </p>
+          </div>
+
+          <div id="InterSystems" class="work-history">
+            <h3>InterSystems Corporation</h3>
+            <p class="workDates">Web Programmer - June 2010 - February 2013</p>
+            <p class="workDates">Technical Trainer - February 2007 - June 2010</p>
+            </p>
+          </div>
+        </div>
+        <h2>Side Projects</h2>
+        <div id="outside">
+          <div>
+            <h3>Make It So</h3>
+            <p>Open-source online sci-fi text adventure</p>
+            <p><b>Technologies:</b> React, Redux, Backbone.js, NodeJS, Express, SASS, MongoDB, Docker, Webpack</p>
+            <p><a>https://github.com/trflagg/MakeItSo</a></p>
+          </div>
+          <div>
+            <h3>Argie</h3>
+            <p>Online platform for creating your own interactive worlds</p>
+            <p><b>Technologies:</b> React, Redux, TypeScript, GraphQL, NodeJS, Express, SASS, Jest, MongoDB, Docker, Webpack</p>
+            <p><a>https://github.com/trflagg/argie</a></p>
+          </div>
+        </div>
+
+        <h2>Education</h2>
+        <div id="education">
+          <h3>University of Florida</h3>
+          <p>
+          Bachelor of Science <i>cum laud</i>, Computer Science, May 2005.<br/>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var tld = "com",
+        mail = "",
+        addr = "trf";
+      addr += "lagg";
+      mail += '<a href="' + 'ma' + 'il' + 'to:';
+      addr += '&#64;' + 'gm';
+      addr += 'ail' + '.' + tld;
+      mail += addr +'">' + addr + '<' + '/a>';
+    </script>
+  </body>
