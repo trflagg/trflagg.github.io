@@ -31,10 +31,11 @@
         display: block;
         border-bottom: 1px solid black;
         font-size: 25px;
+        margin-bottom: 5px;
       }
 
       h3 {
-        margin-top: 25px;
+        margin-top: 0px;
         margin-bottom: -0.1em;
         font-size: 15px;
       }
@@ -46,11 +47,14 @@
 
       div {
         page-break-before: always;
-        margin-top: -0.5em;
       }
 
       p {
         margin-left: 1.8em;
+      }
+
+      .work-history {
+        margin-bottom: 1.5em;
       }
 
       .work-history p, #outside p {
@@ -69,14 +73,6 @@
       .workDates {
         margin-bottom: 10px;
         font-style: italic;
-      }
-
-      #work div {
-        margin-top: 15px;
-      }
-
-      #work div:first-child {
-        margin-top: 0px;
       }
 
       #outside {
@@ -107,14 +103,19 @@
           text-decoration: none;
         }
 
+        h1 {
+          margin-bottom: 0.4em;
+        }
+
         h2 {
           margin-top: 1em;
           display: block;
           font-size: 18px;
+          margin-bottom: 0em;
         }
 
         h3 {
-          margin-bottom: 0.5em;
+          margin-bottom: 0.3em;
         }
       }
     </style>
@@ -149,16 +150,32 @@
         <h2>Skills</h2>
         <div id="skills" class="">
           <ul>
-            <li>JavaScript and its latest features (async/await, spread operator, etc.), HTML5, CSS3, TypeScript</li>
-            <li>React, React Native, Redux, SASS, Backbone.js, Underscore, JQuery, Jest, Webpack</li> 
-            <li>NodeJS, Express, GraphQL, Mongoose, Ruby/Rails, Python/Flask</li>
-            <li>Git, Docker, AWS, Google Cloud, NPM, Agile Development</li>
-            <li>MongoDB, MySQL &amp; PostgreSQL, InterSystems Cach&eacute; (object-based dbms)</li>
+            <li>TypeScript, JavaScript and it's latest features, HTML, CSS </li>
+            <li>React, React Native, Redux, GraphQL/Apollo Client, Emotion/SASS, Webpack, Jest, React Testing Library</li> 
+            <li>NodeJS, Express, Mongoose, MongoDB, Python/Flask</li>
+            <li>Git, Docker, AWS, Google Cloud, Agile Development, XCode, Android Studio, Jira</li>
           </ul>
         </div>
 
         <h2>Work Experience</h2>
         <div id="work">
+          <div class="work-history">
+            <h3>PatientPing - Contract Front-end Engineer </h3>
+            <p class="workDates">October 2019 - April 2020</p>
+            <p>Project work to merge multiple React-based front-end applications together.</p>
+            <p>
+            <b>Technologies:</b> React, Webpack, Jest, Redux, React Router
+            </p>
+          </div>
+          <div class="work-history">
+            <h3>Zagster - Contract Mobile Engineer</h3>
+            <p class="workDates">January 2019 - October 2019</p>
+            <p>Part of a small team to provide ongoing support for existing React Native apps as well as development of new fleet-management app. In charge of all aspects of app development, release, and distribution.</p>
+            <p>
+            <b>Technologies:</b> React Native, GraphQL, Google Maps, Bluetooth, XCode, Android Studio, Microsoft App Center 
+            </p>
+          </div>
+
           <div class="work-history">
             <h3>Zagster - Senior Mobile Engineer</h3>
             <p class="workDates">May 2017 - August 2018</p>
@@ -178,10 +195,7 @@
           <div class="work-history">
             <h3>Scout Exchange - Front-end Developer</h3>
             <p class="workDates">April 2013 - August 2014</p>
-            <p>Responsible for all HTML/CSS/JS for multiple interfaces integrated into employer/recruiter software. 
-            <p>Created automated build system to generate multiple client-side packages.</p>
-            <p>
-            <b>Technologies:</b> Backbone.js, SASS, JQuery, Grunt, RequireJS, MongoDB, Python/Flask
+            <p>Backbone.js, SASS, JQuery, Grunt, RequireJS, MongoDB, Python/Flask
             </p>
           </div>
 
@@ -198,13 +212,14 @@
             <h3>Make It So</h3>
             <p>Open-source online sci-fi text adventure</p>
             <p><b>Technologies:</b> React, Redux, Backbone.js, NodeJS, Express, SASS, MongoDB, Docker, Webpack</p>
+            <p><a href="http://makeitso.hiscores.net">http://makeitso.hiscores.net</a></p>
             <p><a href="https://github.com/trflagg/MakeItSo">https://github.com/trflagg/MakeItSo</a></p>
           </div>
           <div>
             <h3>Argie</h3>
-            <p>Online platform for creating your own interactive worlds</p>
-            <p><b>Technologies:</b> React, Redux, TypeScript, GraphQL, NodeJS, Express, SASS, Jest, MongoDB, Docker, Webpack</p>
-            <p><a href="https://github.com/trflagg/argie">https://github.com/trflagg/argie</a></p>
+            <p>Online platform for creation, play, and sharing of interactive text adventures with an easy to use drag & drop, no-code interface.</p>
+            <p><b>Technologies:</b> React, TypeScript, GraphQL, Jest, NodeJS/Express, MongoDB, Docker</p>
+            <p><i>Closed source - github access is available at request</i></p>
           </div>
         </div>
 
