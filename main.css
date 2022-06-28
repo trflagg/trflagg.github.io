@@ -41,3 +41,9 @@ h1, h2 {
 .skills--definition {
   margin-left: 30px;
 }
+
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
