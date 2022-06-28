@@ -2,6 +2,10 @@ h1, h2 {
   font-family: 'Patua One', serif;
 }
 
+h2 {
+  margin-top: 0px;
+}
+
 .jumbotron {
   background-color: #83babb;
 }
@@ -27,10 +31,6 @@ h1, h2 {
 
 .row {
   margin-top: 25px;
-}
-
-.well > h2 {
-  margin-top: 0px;
 }
 
 .skills--heading {
