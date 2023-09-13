@@ -1,2 +1,0 @@
-run:
-	http-server
