@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #222;
+  letter-spacing: 0.1px;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 2em;
+}
+
+li {
+  font-size: 1.1em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+}
+
+a .link, a.link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #222;
+  font-family: "Patua One", serif;
+}
+
+h2 {
+  font-family: "Patua One", serif;
+  font-size: 2.3em;
+  font-weight: 700;
+  color: #222;
+}
+
+h3 {
+  font-family: "Patua One", serif;
+  font-size: 1.75em;
+  font-weight: 500;
+  color: #555;
+}
+
+.markdown a {
+  text-decoration: underline;
+  color: #83babb;
+}
+
+.markdown p {
+  font-size: 1.125rem;
+  line-height: 1.7777778;
+  color: rgb(107, 114, 128);
+  margin-bottom: 2em;
+}
+
+.markdown pre {
+  margin-bottom: 2em;
+}
+
+.markdown ol {
+  list-style: number;
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+
+.markdown ul {
+  list-style: disc;
+  margin-bottom: 2em;
+  margin-left: 1em;
+}
+
+.markdown li {
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  color: rgb(107, 114, 128);
+}
+
+.markdown .error {
+  overflow-wrap: wrap;
+  @apply border-l-4 border-red-400 bg-red-50 p-2 mb-2;
+}
+
+.markdown .error p {
+  margin-bottom: 1em;
+}
