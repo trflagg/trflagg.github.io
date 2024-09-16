@@ -31,11 +31,8 @@ export default function Skills() {
                 <ImFilePdf />
               </div>
               <div>
-                <a href="/resume.html">
-                  <p className="text-lg link mb-0">View my resume</p>
-                </a>
                 <a href="/Taylor%20Flagg%20Resume.pdf">
-                  <p className="text-lg link">PDF Version</p>
+                  <p className="text-lg link">View my resume</p>
                 </a>
               </div>
             </div>

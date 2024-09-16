@@ -6,7 +6,12 @@ export default function Wrdie() {
   return (
     <Well>
       <div className="w-full mb-5">
-        <img src="/ButtonLogo.svg" className="inline object-contain h-[90px]" />
+        <a href="https://wrdie.com">
+          <img
+            src="/ButtonLogo.svg"
+            className="inline object-contain h-[90px]"
+          />
+        </a>
       </div>
       <div className="lg:flex lg:space-x-7">
         <div>
@@ -22,7 +27,7 @@ export default function Wrdie() {
             <b>PostgreSQL</b> among others.
           </p>
           <p>
-            <i>Wrdie is currently under redevelopment and will be back soon!</i>
+            <a href="https://wrdie.com">https://wrdie.com</a>
           </p>
         </div>
       </div>
