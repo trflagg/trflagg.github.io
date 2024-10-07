@@ -47,6 +47,12 @@ export default function Home({ posts }: OwnProps) {
           <p>I'm a programmer and I make things.</p>
         </div>
 
+        <h2 className="mb-3">Stuff I've made</h2>
+
+        <Section>
+          <Wrdie />
+        </Section>
+
         <Section>
           <StuffIMake />
         </Section>
@@ -57,10 +63,6 @@ export default function Home({ posts }: OwnProps) {
 
         <Section>
           <Faqs />
-        </Section>
-
-        <Section>
-          <Wrdie />
         </Section>
 
         <Section>

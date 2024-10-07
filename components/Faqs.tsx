@@ -75,12 +75,14 @@ const faqs = [
       <>
         <p>Sure!</p>
         <p>
-          I do short-term and long-term contracts but I'm also available for
-          one-offs and 1:1 coaching sessions.
+          I'm currently looking for full-time remote roles as well as short-term
+          or long term-contracts.
         </p>
         <p>
           The easiest way to get in touch is via{" "}
-          <a href="https://www.linkedin.com/in/trflagg/">my LinkedIn profile</a>
+          <a className="link" href="https://www.linkedin.com/in/trflagg/">
+            my LinkedIn profile
+          </a>
           . Just send me a connection request with some details of what you're
           looking for and I'll get right back to you.
         </p>

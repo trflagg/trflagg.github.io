@@ -27,7 +27,12 @@ export default function Wrdie() {
             <b>PostgreSQL</b> among others.
           </p>
           <p>
-            <a href="https://wrdie.com">https://wrdie.com</a>
+            I'm currently busy working on the newest version, but you can try
+            the old beta version here:
+            <br />
+            <a className="link" href="https://wrdie.com">
+              https://wrdie.com
+            </a>
           </p>
         </div>
       </div>
