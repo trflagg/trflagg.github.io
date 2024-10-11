@@ -27,30 +27,6 @@ const faqs = [
     ),
   },
   {
-    question: "Why did you choose to specialize in front-end?",
-    answer: (
-      <>
-        <p>
-          I'm a visual person and I love making things beautiful and effective.
-        </p>
-        <p>
-          For whatever reason, it is very satisfying for me to work on things
-          that interact directly with the user. I enjoy thinking about the
-          user's experience and working to improve it, whether its big things
-          like navigation and content organization or little details like margin
-          widths and transition lengths.
-        </p>
-        <p>
-          I also love the technology and how it's changed over the years. From
-          the early static HTML pages, to AJAX and template systems, to the
-          fully reactive single page applications we have now, I love how much
-          of a challenge it is to use these new technologies while writing code
-          that is readable and maintainable.
-        </p>
-      </>
-    ),
-  },
-  {
     question: "What are you working on now",
     answer: (
       <>
